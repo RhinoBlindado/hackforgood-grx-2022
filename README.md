@@ -11,7 +11,7 @@ Con el objetivo de determinar la viabilidad de la propuesta se desarrolló un pe
 
 Se desarolló una red siamesa sobre el framework de [Keras](https://keras.io/), las imágenes de los iris utilizadas fueron extraídas de la base de datos pública [MMU2 Iris](https://www.kaggle.com/datasets/naureenmohammad/mmu-iris-dataset). Una vez entrenada y validada la red, la inferencia se realizó por medio de una interfaz web simple desarrollada con [Streamlit](https://docs.streamlit.io/).
 
-La presentación de la propuesta puede verse [aquí](https://github.com/RhinoBlindado/hackforgood-grx-2022/blob/main/presentacion-identificacion-unica.pdf), y el vídeo se encuentra en [YouTube](https://youtu.be/UQNsCV2DFLc)
+La presentación de la propuesta puede observarse [aquí](https://github.com/RhinoBlindado/hackforgood-grx-2022/blob/main/docs/presentacion-identificacion-unica.pdf), y el vídeo [aquí](https://youtu.be/UQNsCV2DFLc).
 
 ### :busts_in_silhouette: Equipo
 El equipo estuvo formado por [Alejandro Alonso](https://github.com/aalonso99), [Pilar Navarro](https://github.com/pilarnavarro) y [Valentino Lugli](https://github.com/RhinoBlindado).
