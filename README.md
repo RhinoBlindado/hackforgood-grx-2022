@@ -1,9 +1,22 @@
-# hackforgood-grx-2022
+# Hack For Good 2022 Granada
+### _Identificación única para combatir la desnutrición_
 
-Este repositorio incluye el código implementado durante nuestra participación en [https://hackforgood.net/](https://hackforgood.net/) durante los días 21-22 de octubre de 2022, donde obtuvimos el segundo premio. En nuestro equipo, formado por [Alejandro Alonso](https://github.com/aalonso99), [Pilar Navarro](https://github.com/pilarnavarro) y [Valentino Lugli](https://github.com/RhinoBlindado), intentamos plantear una solución al reto [Identificación única para combatir la desnutrición](https://hackforgood.net/2022/10/15/identificacion-unica-para-combatir-la-desnutricion/). 
+---
+### :pushpin: Introducción
+Código implementado y documentos generados durante la participación del Hackatón [HackForGood 2022](https://hackforgood.net/) durante los días 21-22 de octubre de 2022, donde se obtuvo el 2º premio local en Granada.
 
-Con el objetivo de determinar la viabilidad de nuestra solución desarrollamos un pequeño ejemplo usando Keras y la base de datos pública MMU2 Iris dataset para entrenar y validar una red siamesa básica. Una vez entrenada, para la inferencia desarollamos una interfaz web simple con la [API Streamlit](https://docs.streamlit.io/).
+Se planteó una solución al reto [Identificación única para combatir la desnutrición](https://hackforgood.net/2022/10/15/identificacion-unica-para-combatir-la-desnutricion/) en la que se plantea identificar a las personas que carezcan de un carnet o tarjeta de identidad por medio de diferentes partes del cuerpo, siendo las más relevantes el iris, las plantas de las manos y los pies. 
 
-El video de presentación se puede ver en el siguiente enlace de Youtube:
+Con el objetivo de determinar la viabilidad de la propuesta se desarrolló un pequeño ejemplo para la identificación de irises, es decir, saber si un iris es de la misma persona o de una diferente. 
 
-[https://youtu.be/UQNsCV2DFLc](https://youtu.be/UQNsCV2DFLc)
+Se desarolló una red siamesa sobre el framework de [Keras](https://keras.io/), las imágenes de los iris utilizadas fueron extraídas de la base de datos pública [MMU2 Iris](https://www.kaggle.com/datasets/naureenmohammad/mmu-iris-dataset). Una vez entrenada y validada la red, la inferencia se realizó por medio de una interfaz web simple desarrollada con [Streamlit](https://docs.streamlit.io/).
+
+La presentación de la propuesta puede verse [aquí](https://github.com/RhinoBlindado/hackforgood-grx-2022/blob/main/presentacion-identificacion-unica.pdf), y el vídeo se encuentra en [YouTube](https://youtu.be/UQNsCV2DFLc)
+
+### :busts_in_silhouette: Equipo
+El equipo estuvo formado por [Alejandro Alonso](https://github.com/aalonso99), [Pilar Navarro](https://github.com/pilarnavarro) y [Valentino Lugli](https://github.com/RhinoBlindado).
+
+### :gear: Ejecución
+El código del entrenamiento se encuentra desarrollado en una libreta de Google Colab por lo que solo es necesario subir este fichero a Google Drive, es necesario subir también los datos que se encuentran en el fichero `.zip`. Una vez en la libreta, se debe de modificar la ruta de acceso a los datos.
+
+Para la inferencia se debe de iniciar el servicio de Streamlit con el fichero `web_interface.py`.
